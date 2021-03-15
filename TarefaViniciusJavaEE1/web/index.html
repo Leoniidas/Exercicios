@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Inicio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h2>Vinicius Martins</h2>
+            <h3>RA: </h3>
+        </div>
+        <hr>
+        <div>
+            <h3>Calculo de Juros</h3>
+            <form action="juros-simples.html">
+                <label> Valor em R$: </label>
+                <input type = "number" id = "valorPresente" name = "valorPresente" min="0" placeholder="Reais"/>
+                <br><br>
+                <label> Juros em %: </label>
+                <input type="number" id="juros" name="juros" placeholder="Porcentagem"/>
+                <br><br>
+                <label> Tempo em meses: </label>
+                <input type="number" id="tempo" name="tempo" min="0" placeholder="Meses"/>
+                <br><br>
+                <input type="submit" name="calcular" value="Calcular"/>            
+            </form>
+        </div>     
+    </body>
+</html>
